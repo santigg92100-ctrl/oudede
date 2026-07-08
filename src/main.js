@@ -1,4 +1,6 @@
 import './style.css'
+import vvmcLogo from '../imagenes/GRUPO VVMC LOGO-02 (1).png'
+import movistarLogo from '../imagenes/movistar-logo-blanco-01.png'
 
 const whatsappLink = 'https://wa.me/520000000000?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20VVMC%20International.'
 
@@ -8,8 +10,7 @@ document.querySelector('#app').innerHTML = `
 
   <header class="site-header" data-header>
     <a class="brand" href="#inicio" aria-label="VVMC International, inicio">
-      <span class="brand-mark">V</span>
-      <span class="brand-copy">VVMC <small>INTERNATIONAL</small></span>
+      <img class="brand-logo" src="${vvmcLogo}" alt="Grupo VVMC" />
     </a>
 
     <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false">
@@ -134,7 +135,7 @@ document.querySelector('#app').innerHTML = `
       <div class="authorized-inner reveal">
         <div class="signal-lines" aria-hidden="true"><i></i><i></i><i></i></div>
         <div class="movistar-logo" aria-label="Movistar">
-          <img src="/imagenes/movistar-logo-blanco-01.png" alt="Movistar" />
+          <img src="${movistarLogo}" alt="Movistar" />
         </div>
         <div class="authorized-copy">
           <p class="eyebrow">Respaldo oficial</p>

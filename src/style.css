@@ -98,6 +98,12 @@ button {
   gap: 12px;
 }
 
+.brand-logo {
+  display: block;
+  width: clamp(118px, 13vw, 180px);
+  height: auto;
+}
+
 .brand-mark {
   display: grid;
   width: 38px;
