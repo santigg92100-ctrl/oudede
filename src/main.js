@@ -1,13 +1,15 @@
 import './style.css'
 
+const whatsappLink = 'https://wa.me/520000000000?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20VVMC%20International.'
+
 document.querySelector('#app').innerHTML = `
   <div class="ambient ambient-one" aria-hidden="true"></div>
   <div class="ambient ambient-two" aria-hidden="true"></div>
 
   <header class="site-header" data-header>
-    <a class="brand" href="#inicio" aria-label="Oudede International, inicio">
-      <span class="brand-mark">O</span>
-      <span class="brand-copy">OUDEDE <small>INTERNATIONAL</small></span>
+    <a class="brand" href="#inicio" aria-label="VVMC International, inicio">
+      <span class="brand-mark">V</span>
+      <span class="brand-copy">VVMC <small>INTERNATIONAL</small></span>
     </a>
 
     <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false">
@@ -18,7 +20,7 @@ document.querySelector('#app').innerHTML = `
       <a href="#nosotros">Quiénes somos</a>
       <a href="#servicios">Qué hacemos</a>
       <a href="#movistar">Distribuidor autorizado</a>
-      <a class="nav-cta" href="#contacto">Contáctanos <span>↗</span></a>
+      <a class="nav-cta" href="${whatsappLink}" target="_blank" rel="noopener noreferrer">Contáctanos <span>↗</span></a>
     </nav>
   </header>
 
@@ -36,7 +38,7 @@ document.querySelector('#app').innerHTML = `
           asesoría especializada y el respaldo que necesitas.
         </p>
         <div class="hero-actions reveal">
-          <a class="button button-primary" href="#contacto">
+          <a class="button button-primary" href="${whatsappLink}" target="_blank" rel="noopener noreferrer">
             Habla con un asesor <span>↗</span>
           </a>
           <a class="text-link" href="#servicios">Conoce lo que hacemos <span>↓</span></a>
@@ -69,7 +71,7 @@ document.querySelector('#app').innerHTML = `
         </div>
         <div class="about-copy reveal">
           <p>
-            En <strong>Oudede International</strong> acercamos las mejores
+            En <strong>VVMC International</strong> acercamos las mejores
             soluciones de telecomunicaciones a personas y empresas.
           </p>
           <p>
@@ -153,14 +155,14 @@ document.querySelector('#app').innerHTML = `
       <div class="section-index reveal">03 / Quiénes somos</div>
       <div class="story-layout">
         <div>
-          <p class="eyebrow reveal">Oudede International</p>
+          <p class="eyebrow reveal">VVMC International</p>
           <h2 class="section-title reveal">
             Una cultura basada en<br /><span>oportunidad y equipo.</span>
           </h2>
         </div>
         <div class="story-copy reveal">
           <p>
-            Oudede International fue fundada en 1980 en Toronto, Canadá,
+            VVMC International fue fundada en 1980 en Toronto, Canadá,
             por Murray Reinhart.
           </p>
           <p>
@@ -379,16 +381,16 @@ document.querySelector('#app').innerHTML = `
       <div class="contact-grid">
         <div class="contact-copy reveal">
           <p>Cuéntanos qué necesitas. Nuestro equipo está listo para ayudarte a encontrar la mejor solución.</p>
-          <a class="button button-primary" href="mailto:contacto@oudedeinternational.com">
-            Enviar un correo <span>↗</span>
+          <a class="button button-primary" href="${whatsappLink}" target="_blank" rel="noopener noreferrer">
+            Enviar WhatsApp <span>↗</span>
           </a>
         </div>
         <div class="contact-details reveal">
-          <a href="mailto:contacto@oudedeinternational.com">
-            <span>Correo</span>
-            <strong>contacto@oudedeinternational.com</strong>
+          <a href="${whatsappLink}" target="_blank" rel="noopener noreferrer">
+            <span>WhatsApp</span>
+            <strong>+52 000 000 0000</strong>
           </a>
-          <a href="tel:+520000000000">
+          <a href="${whatsappLink}" target="_blank" rel="noopener noreferrer">
             <span>Teléfono</span>
             <strong>+52 000 000 0000</strong>
           </a>
@@ -403,12 +405,12 @@ document.querySelector('#app').innerHTML = `
 
   <footer>
     <a class="brand footer-brand" href="#inicio">
-      <span class="brand-mark">O</span>
-      <span class="brand-copy">OUDEDE <small>INTERNATIONAL</small></span>
+      <span class="brand-mark">V</span>
+      <span class="brand-copy">VVMC <small>INTERNATIONAL</small></span>
     </a>
     <p>Conectando personas. Impulsando posibilidades.</p>
     <a href="#inicio">Volver arriba ↑</a>
-    <small>© ${new Date().getFullYear()} Oudede International</small>
+    <small>© ${new Date().getFullYear()} VVMC International</small>
   </footer>
 `
 
