@@ -625,16 +625,10 @@ h1 span,
   align-items: center;
 }
 
-.movistar-logo svg {
-  width: clamp(130px, 15vw, 210px);
-  fill: white;
+.movistar-logo img {
+  width: clamp(180px, 24vw, 330px);
+  height: auto;
   filter: drop-shadow(0 12px 22px rgba(88, 0, 4, 0.18));
-}
-
-.movistar-logo span {
-  color: white;
-  font: 500 clamp(27px, 3vw, 42px) var(--font-display);
-  letter-spacing: -0.06em;
 }
 
 .authorized-copy {

@@ -134,10 +134,7 @@ document.querySelector('#app').innerHTML = `
       <div class="authorized-inner reveal">
         <div class="signal-lines" aria-hidden="true"><i></i><i></i><i></i></div>
         <div class="movistar-logo" aria-label="Movistar">
-          <svg viewBox="0 0 120 80" role="img" aria-hidden="true">
-            <path d="M15 20c7-16 23-14 34 5 7 12 15 13 23-1 12-21 29-18 34 0 5 20-11 46-25 44-9-1-12-13-21-13-10 0-13 12-23 13C20 70 8 37 15 20Z"/>
-          </svg>
-          <span>movistar</span>
+          <img src="/imagenes/movistar-logo-blanco-01.png" alt="Movistar" />
         </div>
         <div class="authorized-copy">
           <p class="eyebrow">Respaldo oficial</p>
