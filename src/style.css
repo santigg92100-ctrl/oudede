@@ -1137,6 +1137,10 @@ footer > small {
   opacity: .72;
 }
 
+.footer-brand .brand-logo {
+  width: clamp(118px, 12vw, 170px);
+}
+
 .reveal {
   opacity: 0;
   transform: translateY(25px);
